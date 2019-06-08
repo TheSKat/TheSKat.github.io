@@ -1,0 +1,234 @@
+@media (max-width: 1199.98px) { 
+    .header-cont {
+        
+        width: 100%;
+    }
+    header .w-100 {
+        
+        box-sizing: content-box;
+    }
+    .header-cont{
+        position: absolute;
+        left: 50%;
+        top: calc(50% + 40px);
+        transform: translate(-50%,-50%)
+    }
+    .header-title {
+        
+        font-size: 47px;
+    }
+    .header-subtitle{
+        margin-bottom: 30px;
+    }
+    header nav{
+        padding-top: 31px;
+        height: 92px;
+    }
+    .macbook{
+        right: 0
+    }
+    .ab-img{
+        right: 5px;   
+    }
+ }
+
+@media (max-width: 991.98px) { 
+    .header-title{
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    .nav-link{
+        padding-bottom: 35px;
+        padding-top: 20px;
+    }
+    .services a{
+        height: 145px;
+    }
+    .macbook{
+        display: none;
+    }
+    .ab-h2 {
+
+        margin-bottom: 107px;
+    
+    }
+    .ab-img{
+        display: none;
+    }
+ 
+    
+}
+
+@media (max-width: 767.98px) { 
+    .logo{
+        width: 90%;
+        letter-spacing: 20px;
+
+    padding-left: 33px;
+    } 
+    
+    
+    .header-title {
+        font-size: 35px;
+    }
+    .header-subtitle {
+        margin-bottom: 15px;
+    }
+    
+    header .carousel-indicators li {
+        width: 8px;
+        height: 8px;
+    }
+   
+    header nav {
+        padding: 0;
+        padding-top: 5px;
+        height: 85px;
+        flex-wrap: wrap;
+    }
+    .navbar2{
+        padding-top: 5px;
+        margin: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .header-cont{
+        top: calc(50% + 20px);
+    }
+    header .w-100 {
+        height: 368px;
+    }
+    .services a {
+        height: 115px;
+        font-size: 13px;
+    }
+    .nav{
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+        align-items: center
+    }
+    .clip{
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 100% 100%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 100% 100%, 0 100%);
+    }
+     .nav-link{
+        max-width: 45%;
+        
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .nav-tabs .nav-item {
+        margin-bottom: 30px;
+    }
+    .ab-h2{
+        margin-bottom: 75px;
+    }
+}
+@media (max-width:685.98px){
+   
+   
+   
+    .header-cont{
+        top: calc(50% + 25px);
+    }
+}
+
+@media (max-width: 575.98px) {
+    .navbar2 a{
+        font-size: 9px;
+    }
+    .header-title {
+        font-size: 23px;
+    }
+    .header-subtitle {
+        margin-bottom: 30px;
+    }
+    .desing-subtitle{
+        width: 100%;
+        text-align: justify;
+    }
+    .featured-subtitle{
+        width: 100%;
+        text-align: justify;
+    }
+    .w-100 {
+        min-height: 280px;
+    }
+    .featured-work .carousel {
+        height: 320px;
+    }
+    .nav{
+        margin-bottom: 0;
+    }
+    .services {
+     
+        margin-bottom: 45px;
+    }
+    .featured-work .carousel-inner {
+        height: 230px;
+    }
+    .w-100 {
+        min-height: 230px;
+    }
+    .featured-work .carousel {
+        height: 270px;
+    }
+    .flex-column{
+        flex-direction: row !important;
+    }
+    .nav-2{
+        flex-direction: row;
+    }
+
+    .clip-each,
+    .clip-each:after{
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 72%, 50% 100%, 0 72%);
+        clip-path: polygon(0 0, 100% 0, 100% 72%, 50% 100%, 0 72%);
+    }
+    .ab-h2 p {
+      
+        font-size: 17px;
+      
+        text-align: center;
+    }
+    .ab-h2 h2 {
+        font-size: 25px;
+        
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .clip-each img {
+       
+        margin-right: 0;
+    }
+    .about-log{
+        font-size: 30px;
+    }
+    .about{
+        padding-top: 20px;
+        height: 550px;
+    }
+    
+    
+    .ab-h2 h2{
+        margin-top: 20px;
+    }
+    .ab-h2:last-child{
+        margin-bottom: 75px;
+    }
+    .nav-link-2:last-child{
+        margin-bottom: 65px;
+    }
+ }
+ @media (max-width: 344.98px){
+    .nav-link-2:last-child{
+        margin: 0 auto;
+    }
+ }
+
+ @media (max-width: 490px){
+    .navbar2 a i {
+        margin-left: 5px;
+    }
+    
+}
