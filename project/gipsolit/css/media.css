@@ -1,0 +1,313 @@
+@media (max-width: 1199.98px) {
+    .features p{
+        margin-bottom: 50px;
+    }
+    .features{
+        padding-bottom: 50px;
+    }
+    .cost-subtitle{
+        margin-bottom: 50px;
+    }
+    .cost-btn{
+        margin-bottom: 50px;
+    }
+    .cost-card{
+        width: 310px;
+        padding: 25px;
+    }
+    .comment-bot{
+        height: 103px;
+    }
+    .carousel{
+        min-height: 475px;
+    }
+    .content-right p{
+        font-size: 13px;
+    }
+    .section-feedback .hand{
+        left: -200px;
+    }
+    .woman{
+        transform: translateX(-60%);
+    }
+    .danger-card{
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+    .danger-card h5{
+        margin-bottom: 30px;
+    }
+    .work{
+        background-position: -600px 0;
+    }
+    .services img{
+        width: 100%;
+    }
+    .contacts{
+        background-position: -750px 0;
+    }
+}
+@media (max-width: 991.98px) {
+    .header-title{
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    
+    .header-subtitle{
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 35px;
+    }
+    
+    .header-btn{
+        margin: 0 auto;
+        display: block;
+    }
+    
+    .pay{
+        text-align: center;
+    }
+    
+    header form{
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    
+    header .exit{
+        text-align: center;
+        margin: 0;
+    }
+    
+    header{
+        padding-bottom: 50px;
+        background-position: -1100px center;
+    }
+    .cost-card-3{
+        margin: 50px auto 0;
+    }
+    .cost{
+        padding: 70px 0;
+    }
+    .carousel-content{
+        flex-direction: column;
+    }
+    .first-p{
+        margin-top: 30px;
+    }
+    .comment-bot{
+        height: 77px;
+    }
+    .content-left{
+        width: 100%;
+        height: 430px;
+    }
+    .video{
+        width: 100%;
+    }
+    .section-feedback form{
+        width: 685px;
+    }
+    .section-feedback .input{
+        margin-left: 80px;
+    }
+    .section-feedback .hand{
+        left: -250px;
+    }
+    .scheme{
+        background-position: 450px 740px;
+    }
+    .woman{
+        display: none;
+    }
+    .danger-card p{
+        font-size: 13px;
+    }
+    .work form{
+        width: 290px;
+        padding: 20px;
+        height: 370px;
+    }
+    .work p{
+        font-size: 20px;
+    }
+    .work{
+        background-position: -700px 0;
+    }
+    .services img{
+        width: 330px;
+    }
+    .contacts{
+        background-position: -850px 0;
+    }
+}
+@media (max-width: 767.98px) {
+    .logo{
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+    .header-contact{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    header .num{
+        order: 2;
+    }
+    .cost-card{
+        margin: 50px auto 0;
+    }
+    .cost-btn{
+        margin: 0;
+    }
+    .comment-bot{
+        height: 90px;
+    }
+    .section-feedback form{
+        width: 500px;
+        height: 430px;
+    }
+    
+    .section-feedback .input{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .scheme{
+        padding: 50px 0 0 0;
+        text-align: center;
+        background-position: 100px 3500px;
+    }
+    .danger-card2{
+        margin-top: 30px;
+    }
+    .danger{
+        padding: 50px 0;
+    }
+    .work{
+        text-align: center;
+    }
+    .work form{
+        margin-top: 50px;
+    }
+    .work{
+        background-position: -1230px 0;
+    }
+    .contacts h2{
+        text-align: center;
+    }
+    .contacts form{
+        margin-top: 50px;
+    }
+    .right{
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .right p{
+        text-align: center;
+    }
+    .carousel-control-prev{
+        left: -20px;
+    }
+    .carousel-control-next{
+        right: -20px;
+    }
+}
+@media (max-width: 575.98px) {
+    header .exit{
+        color: #fff;
+    }
+    .header-title{
+        font-size: 24px;
+    }
+    
+    header{
+        background-position: -1280px center;
+    }
+    
+    header form,
+    .contacts form{
+        width: 290px;
+        padding: 20px 19px;
+    }
+    .contacts form{
+        height: 550px;
+    }
+    
+    .features p{
+        width: 290px;
+        margin: 0 auto 50px;
+    }
+    
+    .features{
+        padding: 50px 0 0 0;
+    }
+    .features-title{
+        margin-bottom: 80px;
+    }
+    .cost-btn{
+        width: 215px;
+        font-size: 16px;
+    }
+    .cost-card{
+        width: 290px;
+    }
+    .carousel-control-prev{
+        left: 0;
+    }
+    .carousel-control-next{
+        right: 0;
+    }
+    .content-right{
+        display: none;
+    }
+    .carousel{
+        padding: 60px;
+    }
+    .content-left{
+        height: 380px;
+    }
+    .section-feedback form{
+        width: 290px;
+    }
+    .section-feedback .hand{
+        display: none;
+    }
+    .scheme p{
+        margin-bottom: 30px;
+    }
+    .all-subtitle{
+        margin-bottom: 50px;
+    }
+    .danger-card h5{
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    .carousel-control-prev,
+    .carousel-control-next{
+        display: none;
+    }
+    .work{
+        padding: 50px 0;
+        background-position: 0 0;
+    }
+    .services img{
+        width: 100%;
+    }
+    .services,
+    .contacts,
+    .material,
+    .all,
+    .section-feedback{
+        padding: 50px 0;
+    }
+    .logo,
+    .mid{
+        width: 100%;
+        text-align: center;
+    }
+    .mid{
+        margin-top: 30px;
+    }
+}

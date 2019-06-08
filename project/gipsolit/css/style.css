@@ -1,0 +1,882 @@
+@import "../fonts/stylesheet.css";
+body{
+    font-family: 'proxima-reg';
+}
+
+.yellow-btn{
+    height: 65px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'proxima-semibold';
+    font-size: 18px;
+    border-radius: 10px;
+    background: #f8af01;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.yellow-btn:hover{
+    border-color: #f8af01;
+    color: #f8af01;
+    background: transparent;
+}
+
+header{
+    padding-top: 15px;
+    background: url('../img/header-bg.jpg') no-repeat center center;
+    background-size: cover;
+    min-height: 700px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-text h3{
+    margin-bottom: 0;
+    margin-top: 8px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.logo-text p{
+    font-size: 14px;
+}
+
+.logo img{
+    margin-right: 10px;
+}
+
+.header-contact{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header .num{
+    font-size: 20px;
+    color: #292929;
+    font-family: 'proxima-bold';
+    margin: 0;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+header .cons{
+    font-size: 12px;
+    color: #fff;
+    font-family: 'proxima-semibold';
+    text-transform: uppercase;
+    padding: 15px 20px;
+    border-radius: 10px;
+    background: #feb403;
+    border: 2px solid transparent;
+    transition: 0.6s;
+}
+
+header .cons:hover{
+    text-decoration: none;
+    border-color: #feb403;
+    background: transparent;
+    color: #feb403;
+}
+
+.header-title{
+    font-size: 40px;
+    color: #292929;
+    font-family: 'proxima-bold';
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-bottom: 52px;
+}
+
+.header-subtitle{
+    width: 275px;
+    font-size: 24px;
+    color: #292929;
+    line-height: 30px;
+    margin-bottom: 60px;
+}
+
+.header-btn{
+    color: #fff;
+    border: none;
+    outline: none;
+    width: 225px;
+    height: 105px;
+    background: #70c849;
+    font-size: 18px;
+    font-family: 'proxima-semibold';
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.header-btn span{
+    font-size: 30px;
+}
+
+.pay{
+    font-size: 22px;
+    color: #292929;
+    font-family: 'proxima-bold';
+    text-transform: uppercase;
+    margin-top: 37px;
+}
+
+header form,
+.work form,
+.contacts form{
+    height: 410px;
+    width: 355px;
+    background: #fff;
+    margin-top: 110px;
+    padding: 47px 50px;
+    margin-bottom: 35px;
+}
+
+header form h4,
+.work form h4,
+.contacts form h4{
+    font-size: 18px;
+    color: #292929;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header form h4 span{
+    font-family: 'proxima-bold';
+}
+
+.input{
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.input2{
+    margin-bottom: 20px;
+}
+
+.input .form-name{
+    font-size: 13px;
+    color: #565656;
+    margin: 0;
+    padding: 0 9px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background: #fff;
+}
+
+.input input{
+    width: 255px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    height: 54px;
+}
+
+header form .form-btn,
+.work form .form-btn,
+.contacts form .form-btn{
+    width: 255px;
+    height: 65px;
+    background: #f8af01;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'proxima-semibold';
+    text-transform: uppercase;
+    border: 2px solid transparent;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+header form .form-btn:hover,
+.work form .form-btn:hover,
+.contacts form .form-btn:hover{
+    border-color: #f8af01;
+    background: transparent;
+    color: #f8af01;
+}
+
+header form .feedback,
+.work form .feedback{
+    font-size: 12px;
+    color: #565656;
+    margin-top: 15px;
+    text-align: center;
+}
+
+header .exit{
+    font-size: 12px;
+    color: #565656;
+    margin: 0;
+    margin-left: 30px;
+}
+
+.features{
+    padding: 100px 0;
+    color: #1a1820;
+}
+
+.features img{
+    height: 68px;
+}
+
+.features-title{
+    font-size: 36px;
+    font-family: 'proxima-bold';
+    margin-bottom: 125px;
+}
+
+.features h4{
+    font-size: 20px;
+    font-family: 'proxima-bold';
+    margin-top: 64px;
+    margin-bottom: 40px;
+}
+
+.features p{
+    font-size: 16px;
+    font-family: 'proxima-light';
+}
+
+.features a{
+    color: #46b914;
+    text-decoration: underline;
+}
+
+.cost{
+    padding: 110px 0;
+    background: url('../img/bg-green.jpg') repeat;
+}
+
+.cost-title{
+    color: #fff;
+    font-size: 36px;
+    font-family: 'proxima-bold';
+}
+
+.cost-subtitle{
+    color: #fff;
+    font-size: 17px;
+    margin-bottom: 80px;
+}
+
+.cost-btn{
+    width: 375px;
+    height: 65px;
+    color: #fff;
+    text-transform: uppercase;
+    background: #fdb403;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    font-size: 18px;
+    font-family: 'proxima-semibold';
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.cost-btn:focus,
+.cost-btn:active{
+    outline: none;
+}
+
+.cost-btn:hover{
+    border-color: #fdb403;
+    color: #fdb403;
+    background: transparent;
+}
+
+.cost-card{
+    width: 350px;
+    height: 660px;
+    background: #fff;
+    padding: 40px;
+    color: #1a1820;
+    position: relative;
+}
+
+.cost-card h5{
+    font-size: 17px;
+    font-family: 'proxima-bold';
+    margin-bottom: 30px;
+}
+
+.cost-card .card-photo{
+    width: 100%;
+}
+
+.card-subtitle{
+    font-size: 19px;
+    font-family: 'proxima-bold';
+    margin-bottom: 30px;
+}
+
+.card-subtitle span{
+    font-size: 30px;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.card-check{
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.card-btn{
+    width: 209px;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.section-feedback{
+    padding: 100px 0 150px 0;
+    background: url('../img/bg-white.jpg');
+    position: relative;
+}
+
+.section-feedback h2{
+    font-size: 36px;
+    color: #1a1820;
+    font-family: 'proxima-bold';
+    text-align: center; 
+    margin-bottom: 100px;
+}
+
+.carousel{
+    width: 100%;
+    min-height: 480px;
+    background: #fff;
+    box-shadow: 0px 12px 18px 0px rgba(0, 0, 0, 0.11);
+    position: relative;
+    padding: 50px;
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+    width: 50px;
+    height: 60px;
+    background: #49bf15;
+    background-image: url('../img/arrow-left.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-control-next{
+    background-image: url('../img/arrow-right.png');
+    right: -50px;
+}
+
+.carousel-control-prev{
+    left: -50px;
+}
+
+.carousel-item.active{
+    display: flex;
+}
+
+.content-left{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 510px;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 386px;
+}
+
+.content-right{
+    margin-left: 40px;
+}
+
+.content-right p{
+    font-size: 16px;
+    color: #1a1820;
+    margin-bottom: 20px;
+}
+
+.content-right p span{
+    font-family: 'proxima-bold';
+}
+
+.comment-top{
+    display: flex;
+}
+
+.comment-top p{
+    margin-top: 3px;
+    margin-bottom: 0;
+}
+
+.comment-right{
+    margin-left: 20px;
+}
+
+.comment-right h6{
+    font-size: 16px;
+    font-family: 'proxima-bold';
+}
+
+.comment-bot{
+    width: 100%;
+    height: 93px;
+    border: 2px solid #49bf15;
+    padding: 15px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.comment-bot p{
+    line-height: 15px;
+}
+
+.comment-bot::before{
+    content: url('../img/review-arrow.jpg');
+    position: absolute;
+    left: 36px;
+    top: -17px;
+}
+
+.section-feedback form h3{
+    font-size: 22px;
+    font-family: 'proxima-bold';
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-feedback .input{
+    width: 255px;
+    display: inline-block;
+    margin-left: 137px;
+}
+
+.section-feedback .input2{
+    margin-left: 20px;
+}
+
+/* .section-feedback form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+} */
+
+.feedback-btn{
+    width: 257px;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+}
+
+.section-feedback form{
+    width: 820px;
+    height: 320px;
+    background: #fff;
+    padding-top: 50px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.section-feedback .hand{
+    position: absolute;
+    bottom: 0;
+    left: -50px;
+}
+
+.scheme{
+    padding: 120px 0;
+    background: #fff url('../img/hand2.png') no-repeat 700px 382px;
+    color: #1a1820;
+}
+
+.scheme h2{
+    font-size: 36px;
+    font-family: 'proxima-bold';
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.scheme-subtitle{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 78px;
+}
+
+.scheme h4{
+    font-size: 22px;
+    font-family: 'proxima-bold';
+    margin-top: 42px;
+    margin-bottom: 30px;
+}
+
+.scheme p{
+    font-size: 17px;
+    margin-bottom: 80px;
+}
+
+.scheme img{
+    height: 103px;
+}
+
+.all{
+    padding: 120px 0;
+    background: #f5f5f5;
+}
+
+.all h2{
+    font-size: 48px;
+    color: #358015;
+    font-family: 'proxima-bold';
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.all-subtitle{
+    font-size: 16px;
+    color: #1a1820;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.all-cirlce{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1.5px solid #358e10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    margin-right: 5px; 
+}
+
+.all-cirlce p{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #358e10;
+    margin: 0;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'proxima-bold';
+    text-align: center;
+    line-height: 35px;
+}
+
+.all-text h5{
+    font-size: 15px;
+    color: #000;
+    font-family: 'proxima-bold';
+    margin: 0;
+    margin-top: 8px;
+}
+
+.all-text p{
+    font-size: 12px;
+    font-family: 'proxima-light';
+    margin: 0;
+}
+
+.all-card{
+    display: flex;
+}
+
+.danger{
+    padding: 120px 0;
+    background: #fff;
+    position: relative;
+}
+
+.danger h2{
+    font-size: 36px;
+    color: #000;
+    text-align: center;
+    font-family: 'proxima-bold';
+    margin-bottom: 80px;
+}
+
+.danger-card{
+    width: 100%;
+    height: 380px;
+    border: 2px solid #e8e8e8;
+    padding-left: 40px;
+}
+
+.danger-card2{
+    border-color: #358015;
+}
+
+.danger-card h5{
+    font-size: 20px;
+    color: #989898;
+    font-family: 'proxima-bold';
+    margin-top: 45px;
+    margin-bottom: 50px;
+}
+
+.danger-card2 h5{
+    color: #313131;
+}
+
+.danger-card p{
+    font-size: 15px;
+    color: #313131;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: flex-start;
+    line-height: 18px;
+}
+
+.danger-card2 p{
+    margin-bottom: 25px;
+}
+
+.danger-card p img{
+    margin-right: 20px;
+    display: block;
+    margin-top: 3px;
+}
+
+.woman{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-55%);
+}
+
+
+.material{
+    padding: 120px 0;
+    background: url('../img/bg-white.jpg');
+}
+
+.material h2{
+    font-size: 36px;
+    color: #000;
+    text-align: center;
+    font-family: 'proxima-bold';
+    margin-bottom: 50px;
+}
+
+.material .material-subtitle{
+    font-size: 19px;
+    color: #000;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.material img{
+    height: 170px;
+}
+
+.material h3{
+    font-size: 22px;
+    color: #000;
+    font-family: 'proxima-bold';
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.material p{
+    font-size: 19px;
+    color: #000;
+    margin: 0;
+}
+
+.material p span{
+    font-family: 'proxima-bold';
+}
+
+.material .link{
+    font-size: 16px;
+    color: #6ba253;
+    text-decoration: underline;
+    margin-top: 25px;
+    display: inline-block;
+    margin-bottom: 70px;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.material p a{
+    color: #6ba253;
+    text-decoration: underline;
+}
+
+.work{
+    padding: 120px 0;
+    background: url('../img/work-bg.jpg');
+    background-size: cover;
+    background-position: -400px 0;
+}
+
+.work h2{
+    font-size: 40px;
+    color: #292929;
+    text-transform: uppercase;
+    font-family: 'proxima-bold';
+    margin-bottom: 50px;
+}
+
+.work p{
+    font-size: 23px;
+    color: #292929;
+}
+
+.work form{
+   margin: 0 auto;
+}
+
+.services{
+    padding: 120px 0;
+    background: url('../img/bg-green.jpg');
+}
+
+.services h2{
+    font-size: 36px;
+    color: #fcfcfc;
+    font-family: 'proxima-bold';
+    margin-bottom: 50px;
+}
+
+.services p{
+    font-size: 19px;
+    color: #fcfcfc;
+    margin-bottom: 70px;
+}
+
+.service-btn{
+    height: 52px;
+    width: 146px;
+    font-size: 16px;
+    font-family: 'proxima-bold';
+}
+
+.services h4{
+    font-size: 20px;
+    color: #fcfcfc;
+    margin: 30px 0;
+}
+
+.contacts{
+    padding: 120px 0;
+    background: url('../img/contact-bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: -500px 0;
+    color: #292929;
+}
+
+.contacts h2{
+    font-size: 36px;
+    font-family: 'proxima-bold';
+    margin-bottom: 50px;
+}
+
+.contacts p{
+    margin: 0;
+    font-size: 18px;
+}
+
+.contacts img{
+    display: block;
+    margin: 25px 0;
+    width: 100%;
+}
+
+.contacts span{
+    font-family: 'proxima-bold';
+    display: block;
+    margin-bottom: 25px;
+}
+
+.contacts a{
+    font-size: 18px;
+    color: #292929;
+    text-decoration: underline;
+    display: block;
+    margin-bottom: 25px;
+}
+
+.contacts form textarea{
+    width: 100%;
+    height: 95px;
+    resize: none;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contacts form{
+    margin: 0 auto;
+    height: 585px;
+}
+
+input:active,
+input:focus{
+    border: 1px solid green;
+    outline: none;
+}
+
+.contacts form textarea:active,
+.contacts form textarea:focus{
+    border: 1px solid green;
+    outline: none;
+}
+
+.contacts form textarea:focus + .form-name{
+    color: chocolate;
+}
+
+footer{
+    height: 144px;
+    background: #fff;
+    padding-top: 37px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.mid h6{
+    margin: 0;
+    font-size: 20px;
+    color: #292929;
+    font-family: 'proxima-bold';
+}
+
+.mid a,
+.mid p{
+    font-size: 17px;
+    color: #292929;
+    text-decoration: underline;
+}
+
+.right p{
+    margin: 0;
+    text-align: right;
+    font-size: 11px;
+    color: #292929;
+}
+
+.mid{
+    margin: 0 20px;
+}
+.logo{
+    animation-iteration-count: 0;
+}
+
+.logo:hover{
+    animation-iteration-count: infinite;
+}
