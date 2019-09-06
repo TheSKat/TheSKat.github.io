@@ -1,0 +1,316 @@
+body{
+    background: white;
+}
+header{
+    min-height: 744px;
+}
+.li{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin: 0 auto;
+    justify-content: center;
+}
+.li a{
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #989696;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+    /* Text style for "About Us" */
+    letter-spacing: 0.52px;
+text-decoration: none;
+}
+.li a:hover{
+    color: #010101;
+font-family: Roboto;
+font-size: 13px;
+font-weight: 400;
+line-height: 17px;
+/* Text style for "H, ome" */
+letter-spacing: 0.52px;
+}
+.header-text{
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    margin-top: 298px;
+}
+h2{
+    color: #1d1e1f;
+font-family: "Helvetica Neue LT Pro - Lt";
+font-size: 44px;
+font-weight: 400;
+line-height: 17px;
+/* Text style for "We build i" */
+letter-spacing: 0.88px;
+}
+h4{
+    color: #898888;
+    margin-top: 4px;
+font-family: "Merriweather - Light Italic";
+font-size: 16px;
+font-weight: 400;
+line-height: 17px;
+/* Text style for "J, ust to" */
+letter-spacing: 0.48px;
+}
+.btn1{
+    width: 188px;
+    height: 57px;
+    margin-top: 43px;
+    background: transparent;
+    border-radius: 2px solid black;
+    font-family: Montserrat;
+    text-decoration: none;
+    list-style: none;
+font-size: 13px;
+font-weight: 400;
+line-height: 17px;
+text-transform: uppercase;
+/* Text style for "R, EAD MOR" */
+letter-spacing: 0.52px;
+}
+.dots{
+    justify-content: center;
+    transform: translate(50%, -50%);
+    margin: 0 auto;
+    display: flex;
+    margin-top: 300px;
+    margin-bottom: 92px;
+}
+.years{
+    height: 1332px;
+background-color: #1d1d1d;
+position: relative;
+overflow: hidden;
+}
+.years1{
+    position: relative;
+    padding-top: 151px;
+}
+.years .dots2{
+    position: absolute;
+    left: 48%;
+}
+.number{
+    color: #fefefe;
+font-family: "Helvetica Neue LT Pro - Roman";
+font-size: 48px;
+font-weight: 400;
+text-align: right;
+line-height: 26px;
+/* Text style for "2014" */
+letter-spacing: 0.96px;
+margin-bottom: 27px;
+margin-left: 74px;
+margin-right: 74px;
+}
+.number2{
+    text-align: left;
+}
+.sub-numb{
+    color: #b7b7b7;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0.3px; 
+    margin-left: 74px;
+    margin-right: 74px;
+}
+.years .city{
+    position: absolute;
+    bottom: -3px;
+    left: -39.3%;
+}
+.team{
+height: 725px; 
+
+}
+.team-text{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 124px;
+}
+.photo{
+    text-align: center;
+}
+.title{
+    color: #464646;
+font-family: "Helvetica Neue LT Pro - Roman";
+font-size: 24px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0.48px;
+margin: 0;
+padding-top: 25px;
+padding-bottom: 7px;
+}
+.sub-title{
+    color: #b3b3b3;
+font-family: "Helvetica Neue LT Pro - Roman";
+font-size: 13px;
+font-weight: 400;
+line-height: 26px;
+margin: 0;
+letter-spacing: 0.26px;
+}
+.social .fa{
+    color: #e4e4e4;
+}
+.photo2{
+margin-top: -170px;
+}
+.triangle{
+    width: 100%;
+height: 1664px;
+overflow: hidden;
+margin: 0;
+padding: 0;
+margin-top: -130px;
+position: relative;
+}
+.bg{
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+}
+.triangle-txt{
+    text-align: center;
+    margin-top: 300px;
+}
+.triangle-txt h3{
+    color: #ffffff;
+    font-family: "Helvetica Neue LT Pro - Lt";
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 26px;
+    /* Text style for "W, e provi" */
+    letter-spacing: 0.68px;
+}
+.sub-icon{
+    color: #ffffff;
+font-family: "Helvetica Neue LT Pro - Lt";
+font-size: 26px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0.52px;
+margin: 0;
+padding: 0;
+margin-top: 43px;
+margin-bottom: 31px;
+}
+.sub-p{
+    color: #383838;
+font-family: "Helvetica Neue LT Pro - Lt";
+font-size: 18px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0.36px;
+margin: 0;
+padding: 0;
+}
+.icons{
+    margin-top: 218px;
+}
+.bg2{
+    position: absolute;
+    bottom: -500px;
+    left: 8%;
+    right: 0;
+    z-index: 1;
+}
+.btn2{
+ width: 217px;
+height: 64px;
+background-color: #ffffff;
+color: #000000;
+font-family: "Helvetica Neue LT Pro - Md";
+font-size: 16px;
+font-weight: 400;
+text-transform: uppercase;
+display: flex;
+text-align: center;
+margin: 0 auto;
+justify-content: center;
+align-items: center;
+position: absolute;
+bottom: 230px;
+left: 40%;
+}
+.contacts{
+    overflow: hidden;
+    z-index: 1214124;
+    margin-top: -205px;
+    position: relative;
+}
+.bg3{
+    position: absolute;
+    z-index: -1;
+}
+.team-text2{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 280px;
+    margin-bottom: 124px;
+}
+.right{
+    text-align: right;
+    
+}
+.left{
+    text-align: left;
+}
+.contact-form input{
+    width: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 14px;
+    height: 53px;
+}
+.contact-form input::placeholder{
+    
+    align-items: center;
+    text-align: center;
+}
+textarea{
+    text-align: left;
+    align-items: center;
+    height: 196px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 632px;
+    
+}
+textarea::placeholder{
+    padding: 13px;
+}
+.footer-btn{
+    width: 632px;
+    background: black;
+    color: white;
+    height: 53px;
+    text-align: center;
+    align-items: center;
+    font-size: 17px;
+    margin: 0 auto;
+    margin-top: 21px;
+    margin-bottom: 154px;
+    display: flex;
+    justify-content: center;
+}
+.copy{
+    text-align: center;
+    color: #000000;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
