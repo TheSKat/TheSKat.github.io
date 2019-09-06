@@ -1,0 +1,83 @@
+.team{
+  .subtitle{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    width: 710px;
+    .md(width, 100%);
+    margin: 0 auto 70px;
+    line-height: 18px;
+    font-family: 'Lato';
+  }
+  .team-card{
+    position: relative;
+    .lg(margin-bottom, 30px);
+    .sm-block({
+      width: 290px;
+      height: 387px;
+      margin: 0 auto 30px;
+    });
+    img{
+      width: 100%;
+      height: auto;
+      filter: grayscale(100%);
+    }
+    .card-hover{
+      position: absolute;
+      width: 100%;
+      height: auto;
+      top: 0;
+      left: 0;
+      background: #4c76ffa9;
+      color: @white;
+      font-family: 'Open Sans';
+      padding: 20px;
+      .xl(padding, 18px);
+      .lg(padding, 25px);
+      .md(padding, 20px);
+      .sm(padding, 25px);
+      text-align: center;
+      opacity: 0;
+      transition: 0.5s;
+      h3{
+        font-size: 16px;
+        .xl(font-size, 14px);
+        font-weight: 700;
+        margin-bottom: 15px;
+        .xl(margin-bottom, 10px);
+        .lg(margin-bottom, 50px);
+        .lg(margin-top, 35px);
+        .md(margin-top, 10px);
+        .md(margin-bottom, 10px);
+        .sm(margin-bottom, 40px);
+      }
+      p{
+        font-size: 16px;
+        .xl(font-size, 14px);
+        margin-bottom: 40px;
+        .xl(margin-bottom, 19px);
+        .lg(margin-bottom, 70px);
+        .md(margin-bottom, 40px);
+        .sm(margin-bottom, 54px);
+      }
+      a{
+        width: 35px;
+        height: 35px;
+        display: inline-block;
+        background: #3653ae;
+        color: @white;
+        line-height: 35px;
+        transition: 0.5s;
+        .lg(margin-bottom, 33px);
+        .md(margin-bottom, 19px);
+        &:hover{
+          background: @white;
+          color: #3653ae;
+        }
+      }
+    }
+    &:hover .card-hover{
+      opacity: 1;
+    }
+  }
+}

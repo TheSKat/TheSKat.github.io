@@ -1,0 +1,126 @@
+.header{
+  font-family: 'Lato';
+  // height: 100vh;
+  padding-bottom: 120px;
+  color: @white;
+  .bg('../img/header_bg.jpg');
+  &-menu{
+    background: rgba(16, 22, 54, 0.4);
+    .md(padding, 10px 0)
+  }
+  &-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar{
+    display: flex;
+    list-style: none;
+    .md-block({
+      position: absolute;
+      top: -150px;
+      width: 100%;
+      background: rgba(16, 22, 54, 0.4);
+      left: 0;
+      justify-content: center;
+    });
+    .nav-item:not(:first-child){
+      margin-left: 30px;
+      .sm(margin-left, 10px);
+    }
+    .nav-link{
+      color: @white;
+      font-size: 12px;
+      padding: 25px 5px 18px;
+      display: block;
+      text-decoration: none;
+      position: relative;
+      span{
+        position: absolute;
+        width: 0%;
+        display: block;
+        height: 4px;
+        top: 0;
+        left: 50%;
+        background: @blue;
+        transition: 1s;
+        transform: translateX(-50%);
+      }
+      &.active{
+        span{
+          width: 100%;
+        }
+      }
+    }
+  }
+  .logo{
+    font-size: 21px;
+    color: @white;
+    font-weight: 900;
+    text-decoration: none;
+  }
+  .burger{
+    width: 40px;
+    height: 40px;
+    border: 2px solid @white;
+    border-radius: 10px;
+    display: none;
+    .md(display, flex);
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 30px;
+  }
+  h1{
+    text-align: center;
+    font-size: 62px;
+    font-weight: 900;
+    margin-top: 200px;
+    margin-bottom: 14px;
+    .md(margin-top, 150px);
+  }
+  h2{
+    font-size: 48px;
+    text-align: center;
+    font-weight: 100;
+    margin-bottom: 20px;
+  }
+  p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 100;
+    &::before,
+    &::after{
+      content: '';
+      display: inline-block;
+      width: 28px;
+      height: 1px;
+      background: @blue;
+      vertical-align: middle;
+    }
+    &::before{
+     margin-right: 40px;
+     .sm(margin-right, 10px); 
+    }
+    &::after{
+      margin-left: 40px;
+      .sm(margin-left, 10px); 
+    }
+  }
+  &-social{
+    text-align: center;
+    margin-top: 100px;
+    a{
+      font-size: 20px;
+      color: @white;
+      margin: 0 9px;
+      opacity: 0.3;
+      &:hover{
+        opacity: 1;
+      }
+    }
+  }
+}
+
+
+

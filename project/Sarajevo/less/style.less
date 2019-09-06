@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.blue{
+  color: @blue;
+}
+.title{
+  font-size: 28px;
+  color: @blue;
+  text-transform: uppercase;
+  font-family: 'Lato';
+  font-weight: 900;
+  margin-bottom: 25px;
+  text-align: center;
+}
+section{
+  padding: 80px 0 120px;
+}
+.lg-5{
+  .lg(margin-top, 50px);
+}
+.md-5{
+  .md(margin-top, 50px);
+}
+.sm-5{
+  .sm(margin-top, 50px);
+}
+
+.heart{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  span{
+    width: 90px;
+    height: 1px;
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.3);
+  }
+  .fa{
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 0.3;
+    margin: 0 15px;
+  }
+}
+
+.text-center{
+  text-align: center;
+}
+
+@import './params/var.less';
+@import './params/mix.less';
+@import './header.less';
+@import './features.less';
+@import './phone.less';
+@import './works.less';
+@import './team.less';
+@import './facts.less';
+@import './contacts.less';
