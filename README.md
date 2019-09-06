@@ -1,7 +1,7 @@
  theskat.github.io
 # Ссылки на проекты в портфолио: (если не открывает скопируйте и вставьте в адрес.строку)
-# photographersomov.ru/
-# theskat.github.io/project/Sarajevo/
+# https://photographersomov.ru/
+# https://theskat.github.io/project/Sarajevo/
 # https://theskat.github.io/project/gipsolit/
 # https://theskat.github.io/project/logic/
 # https://theskat.github.io/project/photobook/
