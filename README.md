@@ -5,4 +5,3 @@
 # https://theskat.github.io/project/gipsolit/
 # https://theskat.github.io/project/logic/
 # https://theskat.github.io/project/photobook/
-# https://theskat.github.io/project/B&W Template/
